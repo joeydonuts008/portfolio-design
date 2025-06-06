@@ -1,0 +1,54 @@
+.top-left {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  font-size: 65px;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 100px;
+  left: 215px;
+  color: white;
+}
+
+.button {
+    background-color: teal;
+    color: white;
+    font-size: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  width: 100%;
+}
+
+.text.align-center {
+  text-align: center;
+  max-width: 650px;
+}
+
+p {
+    font-size: 100px;
+    color: teal
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.image-center img {
+  width: 800px;
+  height: 700px;
+  
+}
